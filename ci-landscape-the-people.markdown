@@ -93,7 +93,7 @@ I lucked into a couple of co-op years at Oak Ridge National Lab doing a mix of C
 :::
 
 ::: notes
-The first one is Campus Champions: this was the second RCD community that I joined about 5 years ago, the one that introduced me to Henry and other folks via the Virtual Residency.
+The first one is Campus Champions: this was the second RCD community that I joined about 6 years ago, the one that introduced me to Henry and other folks via the Virtual Residency.
 
 Campus Champions is one of the longest-running RCD communities, starting around 2008 and formerly funded by NSF's Extreme Science and Engineering Discovery Environment (XSEDE). It currently has over 800 members from every state, and it includes folks from every RCD role: facilitators, software engineers, systems administrators, etc.
 
@@ -132,7 +132,7 @@ Now those organizations are all virtual, no cost to join, and extremely welcomin
 ::: {.columns align=top}
 ::: {.column width=80%}
 - The de facto RCD people conference
-- Small enough (782 attendees in 2023)
+- Small enough (782 attendees in 2023, 970 in 2024)
 - Full range of publishing options
   - full papers
   - short papers
@@ -155,11 +155,11 @@ Go at least once.
 ::: notes
 But if you're up for some travel, and don't know where to go to improve your RCD program or yourself, here's a couple more options.
 
-The Association for Computing Machinery hosts an annual Practical Experiences in Advanced Research Computing Conference (PEARC), and this is by far my top priority conference for the last few years. It's the de facto RCD people conference, and with around 800 people in attendance last year, it's small enough to where you can meet a lot of people doing work similar to you, and not get overwhelmed.
+The Association for Computing Machinery hosts an annual Practical Experiences in Advanced Research Computing Conference (PEARC), and this is by far my top priority conference for the last few years. It's the de facto RCD people conference, and with around 1000 people in attendance last year, it's small enough to where you can meet a lot of people doing work similar to you, and not get overwhelmed.
 
 The conference is a normal academic/professional conference with paper and presntation tracks, a poster session, and a visualization showcase where students, faculty, and staff can show off their work and get ideas to take back with them.
 
-There's a day of workshops and tutorials on a huge range of topics, and co-located events frmo CaRCC and RCD Nexus on the Sunday before the actual conference starts.
+There's a day of workshops and tutorials on a huge range of topics, co-located events from CaRCC and RCD Nexus on the Sunday before the actual conference starts, and a great student program.
 
 Go to PEARC at least once, but as I said previously, it's on my hot list every year because of the people that attend.
 :::
@@ -191,13 +191,13 @@ Go at least once, but just once is probably ok, too.
 ::: notes
 The Supercomputing conference series is probably the most famous conference, and it's pretty far on the other end of the spectrum from PEARC.
 
-It's huge, around 14000 attendees last year. Tons of vendors, giant exhibition space, lots of recruiting for graduate programs, national labs, etc. One of the two Top 500 lists for fastest HPCs each year is always announced at SC.
+It's huge, around 18000 attendees last year. Tons of vendors, giant exhibition space, lots of recruiting for graduate programs, national labs, etc. One of the two Top 500 lists for fastest HPCs each year is always announced at SC.
 
 They host a student cluster competition every year, where teams from all over the world compete to squeeze the most performance out of a limited power budget and get the best performance on a range of computational codes.
 
-The SCinet network is also a technical wonder, last year they strung a lot of miles of cable around the convention center and provided nearly 7 terabits of Internet bandwidth to the attendees and exhibitors.
+The SCinet network is also a technical wonder, last year they strung a lot of miles of cable around the convention center and provided nearly 9 terabits of Internet bandwidth to the attendees and exhibitors.
 
-I haven't been to SC yet, but should be going to this year's. From what I've heard, for some people, going once is enough for the spectacle of everything, but you may find you want to go back repeatedly.
+So far, I've spent only one day in the SC exhibition hall, and haven't yet attended other parts of it. From what I've heard, for some people, going once is enough for the spectacle of everything, but you may find you want to go back repeatedly.
 :::
 
 ## Virtual Residency Program
@@ -311,7 +311,7 @@ We've used Software Carpentry materials for everyone from advanced high school s
 :::
 
 ::: notes
-The CyberAmbassadors program has a few time slots during the virtual residency this year, so I'll let them explain in more detail, but in general, they're a recognized leader in training for more of the soft skills that complement the technical ability you or your coworkers have. They offer workshops in communications, teamwork, and leadership, and last year, the PIs were inducted into the ASEE hall of fame for their work in this program.
+The CyberAmbassadors program has a few time slots during the virtual residency this year, so I'll let them explain in more detail, but in general, they're a recognized leader in training for more of the soft skills that complement the technical ability you or your coworkers have. They offer workshops in communications, teamwork, and leadership, and in 2023, the PIs were inducted into the ASEE hall of fame for their work in this program.
 :::
 
 # Data-Facing
@@ -472,7 +472,7 @@ Demographically, this group is far from diverse, but it's very welcoming and pra
 :::
 
 ::: notes
-I've not attended any Linux Clusters Institute training, but it's regarded as some of the best training for your systems-facing people to level up their HPC administration skills. Every time there's a new LCI workshop, I see a new batch of people join SIGHPC SysPros all in a bunch.
+I've only attended one Linux Clusters Institute workshop as a last-minute substitute instructor, but it's regarded as some of the best training for your systems-facing people to level up their HPC administration skills. Every time there's a new LCI workshop, I see a new batch of people join SIGHPC SysPros all in a bunch.
 :::
 
 # Strategy- and Policy-Facing
