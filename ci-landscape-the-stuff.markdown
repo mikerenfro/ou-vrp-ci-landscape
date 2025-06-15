@@ -34,7 +34,13 @@ toc: false
 :::
 
 ::: notes
-x
+**(Skip this if this is the second of a two-part talk.)**
+
+To give you a bit of an idea where I come from in all of this, my LinkedIn bio that has all the fancy language about decades of experience supporting engineering research really comes down to this:
+
+I'm a self-diagnosed high-functioning ADHD guy who probably should have studied more than he helped people in computer labs.
+
+I lucked into a couple of co-op years at Oak Ridge National Lab doing a mix of CAD support, Unix systems administration, and actual engineering.
 :::
 
 ### Who am I? (Who are any of us, really?)
@@ -45,7 +51,7 @@ x
 - Three ME degrees from the now-R2 university (1995, 1998, 2018)
 - Mostly-solo practitioner of all things RCD at the same university (2000--2017, 2017--)
 - Perpetually online member of multiple RCD organizations (2018--)
-- Member of Campus Champions Leadership Team (2022--)
+- Member of Campus Champions Leadership Team (2022--), CaRCC Emerging Centers Steering Committee (2024--)
 - Compulsive advice-giver
 :::
 
@@ -57,11 +63,9 @@ x
 :::
 
 ::: notes
-So, in terms of systems, providers, and technologies, there's a huge array of those out there.
+**(Skip this if this is the second of a two-part talk.)** That eventually turned into a bunch of degrees from my original university, which I like to call a masters in shaking things and a PhD in breaking things. I stayed on as an R&D engineer in a research center, and then as the first campus-wide HPC systems administrator in central IT. I'm a member of way too many RCD community groups, been on the Campus Champions leadership team for nearly 3 years, on the CaRCC Emerging Centers steering committee for about a year, and I'm a compulsive advice giver and rabbit-hole-chaser.
 
-Rather than give you every detail about every one of them and running out of time, let me start with the resources you can use to *find* more of those resources, especially computational and storage resources outside your institution.
-
-Depending on your or your users' background, you might get overwhelmed by the variety of options, or your users might make a suboptimal choice based off what they're used to using, even when better resources exist.
+**(Keep this regardless.)** So, in terms of systems, providers, and technologies, there's a huge array of those out there. Rather than give you every detail about every one of them and running out of time, let me start with the resources you can use to *find* more of those resources, especially computational and storage resources outside your institution. Depending on your or your users' background, you might get overwhelmed by the variety of options, or your users might make a suboptimal choice based off what they're used to using, even when better resources exist.
 
 So let's take a look at some of the federally-funded resources and how you can narrow things down a bit.
 :::

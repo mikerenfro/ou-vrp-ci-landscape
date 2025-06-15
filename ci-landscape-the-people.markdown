@@ -34,6 +34,8 @@ toc: false
 :::
 
 ::: notes
+**(Skip this if this is the second of a two-part talk.)**
+
 To give you a bit of an idea where I come from in all of this, my LinkedIn bio that has all the fancy language about decades of experience supporting engineering research really comes down to this:
 
 I'm a self-diagnosed high-functioning ADHD guy who probably should have studied more than he helped people in computer labs.
@@ -49,7 +51,7 @@ I lucked into a couple of co-op years at Oak Ridge National Lab doing a mix of C
 - Three ME degrees from the now-R2 university (1995, 1998, 2018)
 - Mostly-solo practitioner of all things RCD at the same university (2000--2017, 2017--)
 - Perpetually online member of multiple RCD organizations (2018--)
-- Member of Campus Champions Leadership Team (2022--)
+- Member of Campus Champions Leadership Team (2022--), CaRCC Emerging Centers Steering Committee (2024--)
 - Compulsive advice-giver
 :::
 
@@ -61,13 +63,9 @@ I lucked into a couple of co-op years at Oak Ridge National Lab doing a mix of C
 :::
 
 ::: notes
-That eventually turned into a bunch of degrees from my original university, which I like to call a masters in shaking things and a PhD in breaking things.
+**(Skip this if this is the second of a two-part talk.)** That eventually turned into a bunch of degrees from my original university, which I like to call a masters in shaking things and a PhD in breaking things. I stayed on as an R&D engineer in a research center, and then as the first campus-wide HPC systems administrator in central IT. I'm a member of way too many RCD community groups, been on the Campus Champions leadership team for nearly 3 years, on the CaRCC Emerging Centers steering committee for about a year, and I'm a compulsive advice giver and rabbit-hole-chaser.
 
-I stayed on as an R&D engineer in a research center, and then as the first campus-wide HPC systems administrator in central IT.
-
-I'm a member of way too many RCD community groups, been on the Campus Champions leadership team for nearly 2 years, and I'm a compulsive advice giver and rabbit-hole-chaser.
-
-So for the folks who don't have a lot of time for the rest of this talk, or for the new folks that may be overwhelmed by RCD, let me go ahead and get you what others have called the starter pack of RCD organizations and conferences where you can find other communities and resources as you need them.
+**(Keep this regardless.)** So for the folks who don't have a lot of time for the rest of this talk, or for the new folks that may be overwhelmed by RCD, let me go ahead and get you what others have called the starter pack of RCD organizations and conferences where you can find other communities and resources as you need them.
 :::
 
 # The Starter Pack
