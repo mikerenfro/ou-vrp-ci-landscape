@@ -260,8 +260,8 @@ They may not be the absolute newest, most bleeding-edge hardware, but 800+ Amper
 - 488 nodes with 128 AMD 7742 cores and 256 GB RAM
 - 16 nodes with 128 AMD 7742 cores and 512 GB RAM
 - 4 nodes with 96 Intel Cascade Lake cores and 4096 GB RAM
-- 24 nodes with 40 Intel Cascade Lake cores, 512 GB RAM, and 8 NVIDIA V100 GPUs (32 GB)
-- 9 nodes with 40 Intel Cascade Lake cores, 192 GB RAM, and 8 NVIDIA V100 GPUs (16 GB)
+- 10 nodes with 104 Intel Sapphire Rapids cores, 2048 GB RAM, and 8 NVIDIA H100 GPUs (80 GB)
+- 31 nodes with 40 Intel Cascade Lake cores, 102--512 GB RAM, and 8 NVIDIA V100 GPUs (16--32 GB)
 - 1 node with 48 Intel Skylake cores, 1536 GB RAM, and 16 NVIDIA V100 GPUs (32 GB)
 - 15 PB Lustre for `$PROJECT`
 - 200 Gb Infiniband networking
