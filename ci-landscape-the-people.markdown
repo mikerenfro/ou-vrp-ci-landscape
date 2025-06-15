@@ -173,11 +173,11 @@ Go to PEARC at least once, but as I said previously, it's on my hot list every y
 
 - The de facto HPC stuff conference
 - Huge
-- Like, really huge (14,000 attendees in 2023)
+- Like, really huge (14k attendees in 2023, 18k in 2024)
 - Lots of vendors
 - Lots of recruiting
 - Student Cluster Competition
-- SCinet (local network providing 6.71 Tb/s WAN connectivity in 2023)
+- SCinet (local network providing 6.71 Tb/s WAN connectivity in 2023, 8.71 Tb/s in 2024)
 
 Go at least once, but just once is probably ok, too.
 :::
