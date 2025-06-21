@@ -363,13 +363,13 @@ Most of those accelerators can be shared across multiple nodes, leading to an in
 ::: notes
 The last ACCESS facility I want to talk about is Jetstream2 at Indiana University.
 
-While the rest of the facilities so far have been for traditional HPC, Jetstream2 is a private cloud environment suited for on-demand cyberinfrastructure needs.
+While the rest of the facilities so far have been for batch simulation or architecture research, Jetstream2 is a private cloud environment suited for on-demand cyberinfrastructure needs.
 
 It runs OpenStack on the backend, and you can use it to provide long-running VMs for research purposes, whether or not those VMs have computationally intensive workloads.
 
 But for the ones that are computationally intensive, Jetstream's nodes are pretty dense on CPUs and GPUs.
 
-I'm going to be using Jetstream2 for a workshop I'm hosting at PEARC this year, and I don't think I'd be able to conduct that workshop without them. So many thanks to them.
+I've used Jetstream2 for a workshop I hosted at PEARC last year, and I absolutely wouldn't have been able to conduct that workshop without them. So many thanks to the Jetstream folks.
 :::
 
 ## Department of Energy
