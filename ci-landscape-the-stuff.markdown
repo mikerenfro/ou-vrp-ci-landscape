@@ -328,12 +328,36 @@ Predominantly serving research for atmospheric, climate, and other Earth system 
 It also has a few hundred A100 GPUs, but the CPU capacity is one of the key differentiators for Derecho.
 :::
 
+### Anvil at Purdue University
+
+::: {.columns align=top}
+::: {.column width=80%}
+
+- Supporting CPU, GPU simulation and large memory simulation
+- "Composable Subsystem" offers Kubernetes support for science gateways and other workloads
+- All using dual AMD 7763 CPUs (128 cores)
+- 1000 CPU nodes with 256 GB RAM, 32 with 1024 GB RAM
+- 16 GPU nodes with 512 GB RAM and 4 NVIDIA A100 GPUs
+
+:::
+::: {.column width=20%}
+[![](figures/qr-anvil.png)](https://www.rcac.purdue.edu/anvil#docs)
+:::
+:::
+
+::: notes
+Purdue's Anvil facility straddles a line between traditional simulation and private cloud workloads.
+
+One unique attribute of Anvil is their Composable Subsystem that offers Kubernetes container support for inferencing, specialized large language models, science gateways, and other application hosting.
+:::
+
+
 ### Jetstream2 at Indiana University
 
 ::: {.columns align=top}
 ::: {.column width=80%}
 
-- Hybrid-cloud platform for flexible, on-demand, programmable cyberinfrastructure tools
+- Hybrid cloud platform for flexible, on-demand, programmable cyberinfrastructure tools
 - Interactive virtual machine services
 - Infrastructure and orchestration services for research and education
 - AMD Milan CPUs (128 per node)
@@ -348,7 +372,7 @@ It also has a few hundred A100 GPUs, but the CPU capacity is one of the key diff
 :::
 
 ::: notes
-Jetstream2 at Indiana University is a private cloud environment suited for on-demand cyberinfrastructure needs.
+Jetstream2 at Indiana University is a private cloud environment focused on on-demand cyberinfrastructure needs.
 
 It runs OpenStack on the backend, and you can use it to provide long-running VMs for research purposes, whether or not those VMs have computationally intensive workloads.
 
