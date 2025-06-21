@@ -5,7 +5,7 @@ institute:
   - \inst{1}Tennessee Tech University
   - \inst{2}Campus Champions Leadership Team
 title: "The Cyberinfrastructure Landscape: Organizations"
-date: 2024-06-25
+date: 2025-06-23
 aspectratio: 169
 theme: Cookeville
 colorlinks: true
