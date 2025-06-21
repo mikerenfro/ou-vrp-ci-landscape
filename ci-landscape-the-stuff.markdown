@@ -472,6 +472,36 @@ And there's a small amount of resources left to each facility's director's discr
 All of these programs are linked on this slide for easier access.
 :::
 
+
+## Joint NSF, other federal agencies and non-governmental partners
+
+### National Artificial Intelligence Research Resource (NAIRR) Pilot
+
+::: {.columns align=top}
+::: {.column width=80%}
+Early concept for a shared national research infrastructure connecting US researchers to:
+
+- computational and AI,
+- data,
+- software,
+- training, and
+- educational
+
+resources. Many of the federally-funded resources are available through ACCESS or other routes, but **NAIRR also facilitates access to commercial resources including AI models,  inference services, and software as a service offerings**.
+:::
+::: {.column width=20%}
+[![](figures/qr-nairr.png)](https://nairrpilot.org/)
+:::
+:::
+
+::: notes
+Last, but not least, are the resources under the umbrella of the National AI Research Resource, or NAIRR, Pilot project.
+
+In a lot of cases, the federally-funded resources provided through NAIRR can also be reached through ACCESS or other means, and those other means might actually be a better or easier fit for your researchers' needs.
+
+But NAIRR is unique in receiving donations from over 25 non-governmental partners throughout the AI and cloud hyperscaler markets. If your researchers need to go beyond the hardware provided by previously-mentioned facilities, NAIRR is invaluable.
+:::
+
 # Services/Consultancies
 
 ## MATCH Plus
