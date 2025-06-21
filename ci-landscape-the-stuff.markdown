@@ -203,7 +203,7 @@ I'm going to give you a brief survey of some of the newest and maybe the most in
 ::: {.columns align=top}
 ::: {.column width=80%}
 
-- 152 NVIDIA Grace-Hopper nodes, with 288 cores and 4 NVIDIA H100 GPUs each
+- 152 NVIDIA Grace-Hopper nodes, with 288 cores and 4 NVIDIA H100 GPUs (96 GB) each
 - Superchip architecture
 - 6 PB Lustre for `$HOME` and `$SCRATCH`
 - 200 Gb HPE/Cray Slingshot networking
@@ -218,8 +218,6 @@ I'm going to give you a brief survey of some of the newest and maybe the most in
 One of the newest systems, DeltaAI, is at the University of Illinois' National Center for Supercomputing Applications.
 
 NCSA is basically the motherland of academic supercomputing for me, and their new DeltaAI system is very GPU-heavy for any and all accelerated simulation, AI, deep learning, and similar applications.
-
-This .
 :::
 
 ### Delta at National Center for Supercomputing Applications (NCSA)
@@ -242,7 +240,7 @@ This .
 :::
 
 ::: notes
-Also at NCSA, the Delta system is very GPU-heavy for any and all accelerated simulation, AI, deep learning, and similar applications.
+Also at NCSA, the DeltaAI's predecessor, Delta, is also very GPU-heavy.
 
 Those may not contain the absolute newest, most bleeding-edge hardware, but 800+ Ampere GPUs is nothing to sneeze at.
 :::
@@ -252,7 +250,7 @@ Those may not contain the absolute newest, most bleeding-edge hardware, but 800+
 ::: {.columns align=top}
 ::: {.column width=80%}
 
-- **New**: 24 Sapphire Rapids nodes with 1024 GB RAM, and 4 NVIDIA H100 GPUs
+- **New**: 24 Sapphire Rapids nodes with 1024 GB RAM, and 4 NVIDIA H100 (96 GB) GPUs
 - 20 Intel Sapphire Rapids nodes each with 4 Intel GPUs, 128 GB HBM
 - 560 Intel Sapphire Rapids nodes (no GPUs), 128 GB HBM
 - 1060 Intel Skylake nodes, 192 GB RAM
@@ -271,7 +269,7 @@ Those may not contain the absolute newest, most bleeding-edge hardware, but 800+
 :::
 
 ::: notes
-Texas Advanced Computing Center at UT Austin has Stampede3, an absolutely enormous HPC installation with over 1800 nodes and a mix of Intel GPUs, high bandwidth memory, and high speed networking.
+Texas Advanced Computing Center at UT Austin has Stampede3, an absolutely enormous HPC installation with over 1800 nodes and a mix of Intel and NVIDIA GPUs, high bandwidth memory, and high speed networking.
 
 Though it's more than capable of handling application runs at the tens of thousands of cores scale, they'll also take smaller sized jobs and high throughput computing applications.
 
@@ -334,7 +332,7 @@ Bridges-2 has long been my go-to resource when my users outgrow what I can do, o
 :::
 
 ::: notes
-Now ACES at Texas A&M is quite a bit different than Stampede3, Bridges-2, or Delta.
+Now ACES at Texas A&M is quite a bit different than the other systems we've looked at.
 
 Its niche is in software-defined architectures and composability of resources more than raw compute power.
 
