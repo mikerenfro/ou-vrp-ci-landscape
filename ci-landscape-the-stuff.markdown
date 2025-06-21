@@ -210,7 +210,7 @@ I'm going to give you a brief survey of some of the newest and maybe the most in
 
 :::
 ::: {.column width=20%}
-[![](figures/qr-delta.png)](https://docs.ncsa.illinois.edu/systems/delta/)
+[![](figures/qr-delta-ai.png)](https://docs.ncsa.illinois.edu/systems/deltaai/)
 :::
 :::
 
