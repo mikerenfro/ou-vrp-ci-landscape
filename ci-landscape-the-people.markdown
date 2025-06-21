@@ -63,7 +63,7 @@ I lucked into a couple of co-op years at Oak Ridge National Lab doing a mix of C
 :::
 
 ::: notes
-**(Skip this if this is the second of a two-part talk.)** That eventually turned into a bunch of degrees from my original university, which I like to call a masters in shaking things and a PhD in breaking things. I stayed on as an R&D engineer in a research center, and then as the first campus-wide HPC systems administrator in central IT. I'm a member of way too many RCD community groups, been on the Campus Champions leadership team for nearly 3 years, on the CaRCC Emerging Centers steering committee for about a year, and I'm a compulsive advice giver and rabbit-hole-chaser.
+**(Skip this if this is the second of a two-part talk.)** That eventually turned into a bunch of degrees from my original university, which I like to call a masters in shaking things and a PhD in breaking things. I spent 17 years as an R&D engineer in a research center, and then as the first campus-wide HPC systems administrator in central IT. I'm a member of way too many RCD community groups, been on the Campus Champions leadership team for nearly 3 years, on the CaRCC Emerging Centers steering committee for about a year, and I'm a compulsive advice giver and rabbit-hole-chaser.
 
 **(Keep this regardless.)** So for the folks who don't have a lot of time for the rest of this talk, or for the new folks that may be overwhelmed by RCD, let me go ahead and get you what others have called the starter pack of RCD organizations and conferences where you can find other communities and resources as you need them.
 :::
