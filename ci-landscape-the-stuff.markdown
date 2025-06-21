@@ -193,7 +193,7 @@ As you're working on the documentation for the ACCESS project you'll submit, you
 
 It has somewhere on the order of 20 different services listed, and there's no way you'll want to go through all of them one at a time.
 
-So they provide some plain-language filters on the left where you and your researchers can narrow down the type of resource you're interested in, and then you can get more information on each of them by clicking their entry in the list on the right.
+So they provide some plain-language filters on the right where you and your researchers can narrow down the type of resource you're interested in, and then you can get more information on each of them by clicking their entry in the list on the right.
 
 I'm going to give you a brief survey of some of the newest and maybe the most interesting resources on the list, but by all means, explore through all the filtering options to find what works best, and reach out to ACCESS or others in the RCD communities for advice if needed.
 :::
