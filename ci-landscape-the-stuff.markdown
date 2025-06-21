@@ -198,11 +198,61 @@ So they provide some plain-language filters on the left where you and your resea
 I'm going to give you a brief survey of some of the newest and maybe the most interesting resources on the list, but by all means, explore through all the filtering options to find what works best, and reach out to ACCESS or others in the RCD communities for advice if needed.
 :::
 
+### **New** DeltaAI at National Center for Supercomputing Applications (NCSA)
+
+::: {.columns align=top}
+::: {.column width=80%}
+
+- 152 NVIDIA Grace-Hopper nodes, with 288 cores and 4 NVIDIA H100 GPUs each
+- Superchip architecture
+- 6 PB Lustre for `$HOME` and `$SCRATCH`
+- 200 Gb HPE/Cray Slingshot networking
+
+:::
+::: {.column width=20%}
+[![](figures/qr-delta.png)](https://docs.ncsa.illinois.edu/systems/delta/)
+:::
+:::
+
+::: notes
+One of the newest systems, DeltaAI, is at the University of Illinois' National Center for Supercomputing Applications.
+
+NCSA is basically the motherland of academic supercomputing for me, and their new DeltaAI system is very GPU-heavy for any and all accelerated simulation, AI, deep learning, and similar applications.
+
+This .
+:::
+
+### Delta at National Center for Supercomputing Applications (NCSA)
+
+::: {.columns align=top}
+::: {.column width=80%}
+
+- All using AMD 7763 CPUs
+- 132 nodes with 128 cores and 256 GB RAM
+- 100 nodes with 64 cores, 256 GB RAM, and 4 NVIDIA A40 CPUs
+- 100 nodes with 64 cores, 256 GB RAM, and 4 NVIDIA A100 GPUs
+- 6 nodes with 128 cores, 2048 GB RAM, and 8 NVIDIA A100 GPUs
+- 1 node with 128 cores, 2048 GB RAM, and 8 AMD MI100 GPUs
+- Same storage and networking as DeltaAI
+
+:::
+::: {.column width=20%}
+[![](figures/qr-delta.png)](https://docs.ncsa.illinois.edu/systems/delta/)
+:::
+:::
+
+::: notes
+Also at NCSA, the Delta system is very GPU-heavy for any and all accelerated simulation, AI, deep learning, and similar applications.
+
+Those may not contain the absolute newest, most bleeding-edge hardware, but 800+ Ampere GPUs is nothing to sneeze at.
+:::
+
 ### Stampede3 at Texas Advanced Computing Center (TACC)
 
 ::: {.columns align=top}
 ::: {.column width=80%}
 
+- **New**: 24 Sapphire Rapids nodes with 1024 GB RAM, and 4 NVIDIA H100 GPUs
 - 20 Intel Sapphire Rapids nodes each with 4 Intel GPUs, 128 GB HBM
 - 560 Intel Sapphire Rapids nodes (no GPUs), 128 GB HBM
 - 1060 Intel Skylake nodes, 192 GB RAM
@@ -225,36 +275,9 @@ Texas Advanced Computing Center at UT Austin has Stampede3, an absolutely enormo
 
 Though it's more than capable of handling application runs at the tens of thousands of cores scale, they'll also take smaller sized jobs and high throughput computing applications.
 
-This just launched in late 2023, and is a successor to TACC's successful Stampede and Stampede2 installations.
+This just launched in late 2023, is a successor to TACC's successful Stampede and Stampede2 installations, and in mid-2025, they added several nodes with H100 GPUs.
 :::
 
-### Delta at National Center for Supercomputing Applications (NCSA)
-
-::: {.columns align=top}
-::: {.column width=80%}
-
-- All using AMD 7763 CPUs
-- 132 nodes with 128 cores and 256 GB RAM
-- 100 nodes with 64 cores, 256 GB RAM, and 4 NVIDIA A40 CPUs
-- 100 nodes with 64 cores, 256 GB RAM, and 4 NVIDIA A100 GPUs
-- 6 nodes with 128 cores, 2048 GB RAM, and 8 NVIDIA A100 GPUs
-- 1 node with 128 cores, 2048 GB RAM, and 8 AMD MI100 GPUs
-- 6 PB Lustre for `$HOME` and `$SCRATCH`
-- 200 Gb HPE/Cray Slingshot networking
-
-:::
-::: {.column width=20%}
-[![](figures/qr-delta.png)](https://docs.ncsa.illinois.edu/systems/delta/)
-:::
-:::
-
-::: notes
-Another new system is at the University of Illinois' National Center for Supercomputing Applications.
-
-NCSA is basically the motherland of academic supercomputing for me, and their new Delta system is very GPU-heavy for any and all accelerated simulation, AI, deep learning, and similar applications.
-
-They may not be the absolute newest, most bleeding-edge hardware, but 800+ Ampere GPUs is nothing to sneeze at.
-:::
 
 ### Bridges-2 at Pittsburgh Supercomputing Center (PSC)
 
@@ -264,7 +287,7 @@ They may not be the absolute newest, most bleeding-edge hardware, but 800+ Amper
 - 488 nodes with 128 AMD 7742 cores and 256 GB RAM
 - 16 nodes with 128 AMD 7742 cores and 512 GB RAM
 - 4 nodes with 96 Intel Cascade Lake cores and 4096 GB RAM
-- 10 nodes with 104 Intel Sapphire Rapids cores, 2048 GB RAM, and 8 NVIDIA H100 GPUs (80 GB)
+- **New**: 10 nodes with 104 Intel Sapphire Rapids cores, 2048 GB RAM, and 8 NVIDIA H100 GPUs (80 GB)
 - 31 nodes with 40 Intel Cascade Lake cores, 102--512 GB RAM, and 8 NVIDIA V100 GPUs (16--32 GB)
 - 1 node with 48 Intel Skylake cores, 1536 GB RAM, and 16 NVIDIA V100 GPUs (32 GB)
 - 15 PB Lustre for `$PROJECT`
@@ -279,9 +302,11 @@ They may not be the absolute newest, most bleeding-edge hardware, but 800+ Amper
 ::: notes
 Bridges-2 at the Pittsburgh Supercomputing Center managed by Carnegie Mellon and the University of Pittsburgh is a long-standing resource spanning the XSEDE and the ACCESS programs.
 
-Again, not the most bleeding edge hardware, but for certain applications, their extreme memory nodes with 4 TB of RAM each are invaluable.
+Again, not all of it is the most bleeding edge hardware, but for certain applications, their extreme memory nodes with 4 TB of RAM each are invaluable.
 
-Bridges-2 has long been my go-to resource when my users outgrow what I can do, or when a backhoe takes out my data center's power, leading to a weeks-long storage outage last year.
+Recently, they beefed up their GPU capacity with several nodes with 8 H100 GPUs in them.
+
+Bridges-2 has long been my go-to resource when my users outgrow what I can do, or when a backhoe takes out my data center's power, leading to a weeks-long storage outage in 2023.
 :::
 
 ### ACES at Texas A&M University
