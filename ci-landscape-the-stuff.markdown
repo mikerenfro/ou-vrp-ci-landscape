@@ -198,7 +198,7 @@ So they provide some plain-language filters on the left where you and your resea
 I'm going to give you a brief survey of some of the newest and maybe the most interesting resources on the list, but by all means, explore through all the filtering options to find what works best, and reach out to ACCESS or others in the RCD communities for advice if needed.
 :::
 
-### **New** DeltaAI at National Center for Supercomputing Applications (NCSA)
+### **New**: DeltaAI at National Center for Supercomputing Applications (NCSA)
 
 ::: {.columns align=top}
 ::: {.column width=80%}
@@ -305,6 +305,27 @@ Again, not all of it is the most bleeding edge hardware, but for certain applica
 Recently, they beefed up their GPU capacity with several nodes with 8 H100 GPUs in them.
 
 Bridges-2 has long been my go-to resource when my users outgrow what I can do, or when a backhoe takes out my data center's power, leading to a weeks-long storage outage in 2023.
+:::
+
+### Derecho at National Center for Atmospheric Research (NCAR)
+
+::: {.columns align=top}
+::: {.column width=80%}
+
+- All using AMD 7763 CPUs
+- 2488 nodes with 128 cores and 256 GB RAM
+- 82 nodes with 64 cores, 512 GB RAM, and 4 NVIDIA A100 GPUs (40 GB)
+- 200 Gb HPE/Cray Slingshot networking
+:::
+::: {.column width=20%}
+[![](figures/qr-derecho.png)](https://arc.ucar.edu/docs)
+:::
+:::
+
+::: notes
+Predominantly serving research for atmospheric, climate, and other Earth system processes, the National Center for Atmospheric Research's Derecho system is very CPU-heavy, with over 300,000 CPU cores in one system.
+
+It also has a few hundred A100 GPUs, but the CPU capacity is one of the key differentiators for Derecho.
 :::
 
 ### ACES at Texas A&M University
