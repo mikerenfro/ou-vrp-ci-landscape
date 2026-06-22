@@ -363,7 +363,7 @@ It runs OpenStack on the backend, and you can use it to provide long-running VMs
 
 But for the ones that are computationally intensive, Jetstream's nodes are pretty dense on CPUs and GPUs.
 
-I used Jetstream2 for a workshop I hosted at PEARC in 2024, and I absolutely wouldn't have been able to conduct that workshop without them. So many thanks to the Jetstream2 folks.
+I used Jetstream2 to build 30 small HPCs for a workshop I hosted at PEARC24, and I absolutely wouldn't have been able to conduct that workshop without them. So many thanks to the Jetstream2 folks.
 :::
 
 ### Cloudbank 2 and Sherlock at San Diego Supercomputer Center
@@ -443,7 +443,7 @@ Most of those accelerators can be shared across multiple nodes, leading to an in
 
 :::
 ::: {.column width=20%}
-[![](figures/qr-ascr.png)]()
+[![](figures/qr-ascr.png)](https://science.osti.gov/ascr)
 :::
 :::
 
@@ -464,7 +464,7 @@ If ACCESS isn't the best fit for what you're doing, or especially if there's DOE
 
 - [Innovative and Novel Computational Impact on Theory and Experiment (INCITE)](https://www.alcf.anl.gov/science/incite-allocation-program): multi-year awards for open science using majority of machine at Oak Ridge or Argonne
 - [ASCR Leadership Computing Challenge (ALCC)](https://science.osti.gov/ascr/Facilities/Accessing-ASCR-Facilities/ALCC): 1-year awards for advancing DOE mission or broadening the community capable of using large computing resources at Oak Ridge, Argonne, or NERSC
-- [Energy Research Computing Allocations Process (ERCAP)](http://www.nersc.gov/users/accounts/): 1-year awards for advancing DOE Office of Science and SBIR/STTR mission at NERSC
+- [Energy Research Computing Allocations Process (ERCAP)](https://www.nersc.gov/users/become-a-nersc-user/working-with-us): 1-year awards for advancing DOE Office of Science and SBIR/STTR mission at NERSC
 - Center Reserves: 1-year awards for advancing science and engineering fields at [Oak Ridge](https://www.olcf.ornl.gov/support/getting-started/olcf-director-discretion-project-application/), [Argonne](http://www.alcf.anl.gov/directors-discretionary-dd-program), or [NERSC](https://www.nersc.gov/users/accounts/allocations/first-allocation/)
 
 :::
@@ -683,7 +683,7 @@ It can also let you focus your budget on hardware and people rather than licensi
 ![](figures/open-xdmod.png)
 :::
 ::: {.column width=20%}
-[![](figures/qr-open-xdmod.png)]()
+[![](figures/qr-open-xdmod.png)](https://open.xdmod.org/)
 :::
 :::
 
@@ -706,7 +706,7 @@ This is one of the tools that makes an under-resourced institution look more pro
 ![](figures/ood-lrc.png)
 :::
 ::: {.column width=20%}
-[![](figures/qr-open-ondemand.png)]()
+[![](figures/qr-open-ondemand.png)](https://www.openondemand.org)
 :::
 :::
 
@@ -729,11 +729,11 @@ Your security people will be happy that it can be integrated with whatever multi
 - It was designed for large supercomputing centers, where many users and application teams share common installations of software on clusters with exotic architectures, using libraries that do not have a standard ABI.
 - Spack is non-destructive: installing a new version does not break existing installations, so many configurations can coexist on the same system.
 
--- https://spack.readthedocs.io/
+-- https://spack.io
 
 :::
 ::: {.column width=20%}
-[![](figures/qr-spack.png)]()
+[![](figures/qr-spack.png)](https://spack.io)
 :::
 :::
 
