@@ -1,11 +1,10 @@
 ---
 author:
-- Mike Renfro\inst{1,2}
+- Mike Renfro\inst{1}
 institute:
-  - \inst{1}Tennessee Tech University
-  - \inst{2}Campus Champions Leadership Team
+  - \inst{1}Research Computing and Data, Information Technology Services, Tennessee Tech University
 title: "The Cyberinfrastructure Landscape: Systems, Providers, Technologies"
-date: 2025-06-23
+date: 2026-06-22
 aspectratio: 169
 theme: Cookeville
 colorlinks: true
@@ -38,7 +37,7 @@ toc: false
 
 To give you a bit of an idea where I come from in all of this, my LinkedIn bio that has all the fancy language about decades of experience supporting engineering research really comes down to this:
 
-I'm a self-diagnosed high-functioning ADHD guy who probably should have studied more than he helped people in computer labs.
+I was a poorly-diagnosed high-functioning ADHD engineering student who probably should have studied more than he helped people in computer labs.
 
 I lucked into a couple of co-op years at Oak Ridge National Lab doing a mix of CAD support, Unix systems administration, and actual engineering.
 :::
@@ -51,7 +50,7 @@ I lucked into a couple of co-op years at Oak Ridge National Lab doing a mix of C
 - Three ME degrees from the now-R2 university (1995, 1998, 2018)
 - Mostly-solo practitioner of all things RCD at the same university (2000--2017, 2017--)
 - Perpetually online member of multiple RCD organizations (2018--)
-- Member of Campus Champions Leadership Team (2022--), CaRCC Emerging Centers Steering Committee (2024--)
+- Member of Campus Champions Leadership Team (2022--2025), CaRCC Emerging Centers Steering Committee (2024--)
 - Compulsive advice-giver
 :::
 
@@ -63,7 +62,7 @@ I lucked into a couple of co-op years at Oak Ridge National Lab doing a mix of C
 :::
 
 ::: notes
-**(Skip this if this is the second of a two-part talk.)** That eventually turned into a bunch of degrees from my original university, which I like to call a masters in shaking things and a PhD in breaking things. I spent 17 years as an R&D engineer in a research center, and then as the first campus-wide HPC systems administrator in central IT. I'm a member of way too many RCD community groups, been on the Campus Champions leadership team for nearly 3 years, on the CaRCC Emerging Centers steering committee for about a year, and I'm a compulsive advice giver and rabbit-hole-chaser.
+**(Skip this if this is the second of a two-part talk.)** That eventually turned into a bunch of degrees from that university, which I like to call a masters in shaking things and a PhD in breaking things. I spent 17 years as an R&D engineer in a research center, and then as the first campus-wide HPC systems administrator in central IT. I'm a member of way too many RCD community groups, was on the Campus Champions leadership team for 3 years, on the CaRCC Emerging Centers steering committee for about 2 years, and I'm a compulsive advice giver and rabbit-hole-chaser.
 
 **(Keep this regardless.)** So, in terms of systems, providers, and technologies, there's a huge array of those out there. Rather than give you every detail about every one of them and running out of time, let me start with the resources you can use to *find* more of those resources, especially computational and storage resources outside your institution. Depending on your or your users' background, you might get overwhelmed by the variety of options, or your users might make a suboptimal choice based off what they're used to using, even when better resources exist.
 
@@ -198,7 +197,7 @@ So they provide some plain-language filters on the right where you and your rese
 I'm going to give you a brief survey of some of the newest and maybe the most interesting resources on the list, but by all means, explore through all the filtering options to find what works best, and reach out to ACCESS or others in the RCD communities for advice if needed.
 :::
 
-### **New**: DeltaAI at National Center for Supercomputing Applications (NCSA)
+### DeltaAI at National Center for Supercomputing Applications (NCSA)
 
 ::: {.columns align=top}
 ::: {.column width=80%}
@@ -225,11 +224,12 @@ NCSA is basically the motherland of academic supercomputing for me, and their ne
 ::: {.columns align=top}
 ::: {.column width=80%}
 
-- All using AMD 7763 CPUs
+- Intel Xeon Platinum 8558 on H200 nodes, all others are AMD 7763
 - 132 nodes with 128 cores and 256 GB RAM
 - 100 nodes with 64 cores, 256 GB RAM, and 4 NVIDIA A40 CPUs
 - 100 nodes with 64 cores, 256 GB RAM, and 4 NVIDIA A100 GPUs
 - 6 nodes with 128 cores, 2048 GB RAM, and 8 NVIDIA A100 GPUs
+- **New**: 8 nodes with 96 cores, 2048 GB RAM, and 8 NVIDIA H200 GPUs
 - 1 node with 128 cores, 2048 GB RAM, and 8 AMD MI100 GPUs
 - Same storage and networking as DeltaAI
 
@@ -242,7 +242,9 @@ NCSA is basically the motherland of academic supercomputing for me, and their ne
 ::: notes
 Also at NCSA, the DeltaAI's predecessor, Delta, is also very GPU-heavy.
 
-Those may not contain the absolute newest, most bleeding-edge hardware, but 800+ Ampere GPUs is nothing to sneeze at.
+Mosf of them may not contain the absolute newest, most bleeding-edge hardware, but 800+ Ampere GPUs is nothing to sneeze at.
+
+And the addition of 64 H200 GPUs is also a nice upgrade for them.
 :::
 
 ### Stampede3 at Texas Advanced Computing Center (TACC)
@@ -250,7 +252,8 @@ Those may not contain the absolute newest, most bleeding-edge hardware, but 800+
 ::: {.columns align=top}
 ::: {.column width=80%}
 
-- **New**: 24 Sapphire Rapids nodes with 1024 GB RAM, and 4 NVIDIA H100 (96 GB) GPUs
+- **New**: 3 Intel Ice Lake nodes, 4 TB NVDIMM
+- 24 Sapphire Rapids nodes with 1024 GB RAM, and 4 NVIDIA H100 (96 GB) GPUs
 - 20 Intel Sapphire Rapids nodes each with 4 Intel GPUs, 128 GB HBM
 - 560 Intel Sapphire Rapids nodes (no GPUs), 128 GB HBM
 - 1060 Intel Skylake nodes, 192 GB RAM
@@ -269,7 +272,7 @@ Those may not contain the absolute newest, most bleeding-edge hardware, but 800+
 :::
 
 ::: notes
-Texas Advanced Computing Center at UT Austin has Stampede3, an absolutely enormous HPC installation with over 1800 nodes and a mix of Intel and NVIDIA GPUs, high bandwidth memory, and high speed networking.
+Texas Advanced Computing Center at UT Austin has Stampede3, an absolutely enormous HPC installation with over 1800 nodes and a mix of Intel and NVIDIA GPUs, high bandwidth memory, extreme-scale memory, and high speed networking.
 
 Though it's more than capable of handling application runs at the tens of thousands of cores scale, they'll also take smaller sized jobs and high throughput computing applications.
 
@@ -285,8 +288,9 @@ This just launched in late 2023, is a successor to TACC's successful Stampede an
 - 488 nodes with 128 AMD 7742 cores and 256 GB RAM
 - 16 nodes with 128 AMD 7742 cores and 512 GB RAM
 - 4 nodes with 96 Intel Cascade Lake cores and 4096 GB RAM
-- **New**: 10 nodes with 104 Intel Sapphire Rapids cores, 2048 GB RAM, and 8 NVIDIA H100 GPUs (80 GB)
-- 31 nodes with 40 Intel Cascade Lake cores, 102--512 GB RAM, and 8 NVIDIA V100 GPUs (16--32 GB)
+- 10 nodes with 104 Intel Sapphire Rapids cores, 2048 GB RAM, and 8 NVIDIA H100 GPUs (80 GB)
+- **New**: 3 nodes with 96 Intel Xeon6 cores, 1024 GB RAM, and 8 NVIDIA L40S GPUs
+- 33 nodes with 40 Intel Cascade Lake cores, 192--512 GB RAM, and 8 NVIDIA V100 GPUs (16--32 GB)
 - 1 node with 48 Intel Skylake cores, 1536 GB RAM, and 16 NVIDIA V100 GPUs (32 GB)
 - 15 PB Lustre for `$PROJECT`
 - 200 Gb Infiniband networking
@@ -302,30 +306,11 @@ Bridges-2 at the Pittsburgh Supercomputing Center managed by Carnegie Mellon and
 
 Again, not all of it is the most bleeding edge hardware, but for certain applications, their extreme memory nodes with 4 TB of RAM each are invaluable.
 
-Recently, they beefed up their GPU capacity with several nodes with 8 H100 GPUs in them.
+Recently, they beefed up their GPU capacity with a few nodes with 8 L40S GPUs in them, which are better suited for inference versus training.
+
+This builds beyond the 8-way H100 GPU nodes they installed last year.
 
 Bridges-2 has long been my go-to resource when my users outgrow what I can do, or when a backhoe takes out my data center's power, leading to a weeks-long storage outage in 2023.
-:::
-
-### Derecho at National Center for Atmospheric Research (NCAR)
-
-::: {.columns align=top}
-::: {.column width=80%}
-
-- All using AMD 7763 CPUs
-- 2488 nodes with 128 cores and 256 GB RAM
-- 82 nodes with 64 cores, 512 GB RAM, and 4 NVIDIA A100 GPUs (40 GB)
-- 200 Gb HPE/Cray Slingshot networking
-:::
-::: {.column width=20%}
-[![](figures/qr-derecho.png)](https://arc.ucar.edu/docs)
-:::
-:::
-
-::: notes
-Predominantly serving research for atmospheric, climate, and other Earth system processes, the National Center for Atmospheric Research's Derecho system is very CPU-heavy, with over 300,000 CPU cores in one system.
-
-It also has a few hundred A100 GPUs, but the CPU capacity is one of the key differentiators for Derecho.
 :::
 
 ### Anvil at Purdue University
@@ -378,7 +363,37 @@ It runs OpenStack on the backend, and you can use it to provide long-running VMs
 
 But for the ones that are computationally intensive, Jetstream's nodes are pretty dense on CPUs and GPUs.
 
-I used Jetstream2 for a workshop I hosted at PEARC last year, and I absolutely wouldn't have been able to conduct that workshop without them. So many thanks to the Jetstream2 folks.
+I used Jetstream2 to build 30 small HPCs for a workshop I hosted at PEARC24, and I absolutely wouldn't have been able to conduct that workshop without them. So many thanks to the Jetstream2 folks.
+:::
+
+### Cloudbank 2 and Sherlock at San Diego Supercomputer Center
+
+::: {.columns align=top}
+::: {.column width=80%}
+
+- Education, training, and allocations on commercial cloud resources (currently Amazon, Google, IBM, and Microsoft, with Oracle "coming soon")
+- Not just compute and storage, but also Platform as a Service (PaaS) products including database, big data/analytics, and machine learning
+- Partners with SDSC's Sherlock team to enable processing of sensitive or regulated data (HIPAA, FERPA, FISMA, etc.)
+- Lots of flexibility, but also lots of fiddliness required for accurate budgeting
+
+:::
+::: {.column width=20%}
+[![](figures/qr-cloudbank.png)](https://cloudbank.org/)
+:::
+:::
+
+::: notes
+The Cloudbank project has existed since at least 2020, but they've never been included in these presentations before.
+
+But, as we're a group of research computing and data people, and not purely HPC people, I think it's worth including them for some use cases.
+
+The second version of Cloudbank launched a bit over a year ago, was integrated into the ACCESS ecosystem, and offers both training materials and resource allocations on multiple commercial cloud providers, at zero cost to PIs.
+
+This not only includes raw compute and storage, but PaaS offerings for databases, big data analytics, and machine learning.
+
+Cloudbank also now partners with the Sherlock group at SDSC to help configure cloud environments for regulated data. So those of us who don't already have secure enclaves for HIPAA/FERPA-type projects can leverage their expertise when needed.
+
+Because Cloudbank is paying operational expenses for you, they ask you to do quite a bit of homework to optimize the cost of an allocation. But, if your institution or users have limited budgets, this may be the best way to use some of the commercial offerings.
 :::
 
 ### ACES at Texas A&M University
@@ -389,14 +404,14 @@ I used Jetstream2 for a workshop I hosted at PEARC last year, and I absolutely w
 - 130 nodes, 11888 cores
 - Mostly Intel Sapphire Rapids, some Intel Ice Lake, Intel Cascade Lake, and AMD Rome
 - Tons of mostly-composable accelerators:
-  - GPUs: NVIDIA H100 and A30, Intel (coming soon)
+  - GPUs: NVIDIA H100 and A30, Intel Max 1100
   - FPGAs: Bittware Agilex, Intel D5005
   - Coprocessors: NextSilicon
   - Optane memory modules
 - Non-composable accelerators:
   - Graphcore IPUs: GC200, Bow-2000
   - NEC Vector Engine: Type 20B-P
-- 2.3 PB Lustre
+- 2.6 PB Lustre
 - 200 Gb Infiniband networking
 
 :::
@@ -428,7 +443,7 @@ Most of those accelerators can be shared across multiple nodes, leading to an in
 
 :::
 ::: {.column width=20%}
-[![](figures/qr-ascr.png)]()
+[![](figures/qr-ascr.png)](https://science.osti.gov/ascr)
 :::
 :::
 
@@ -449,7 +464,7 @@ If ACCESS isn't the best fit for what you're doing, or especially if there's DOE
 
 - [Innovative and Novel Computational Impact on Theory and Experiment (INCITE)](https://www.alcf.anl.gov/science/incite-allocation-program): multi-year awards for open science using majority of machine at Oak Ridge or Argonne
 - [ASCR Leadership Computing Challenge (ALCC)](https://science.osti.gov/ascr/Facilities/Accessing-ASCR-Facilities/ALCC): 1-year awards for advancing DOE mission or broadening the community capable of using large computing resources at Oak Ridge, Argonne, or NERSC
-- [Energy Research Computing Allocations Process (ERCAP)](http://www.nersc.gov/users/accounts/): 1-year awards for advancing DOE Office of Science and SBIR/STTR mission at NERSC
+- [Energy Research Computing Allocations Process (ERCAP)](https://www.nersc.gov/users/become-a-nersc-user/working-with-us): 1-year awards for advancing DOE Office of Science and SBIR/STTR mission at NERSC
 - Center Reserves: 1-year awards for advancing science and engineering fields at [Oak Ridge](https://www.olcf.ornl.gov/support/getting-started/olcf-director-discretion-project-application/), [Argonne](http://www.alcf.anl.gov/directors-discretionary-dd-program), or [NERSC](https://www.nersc.gov/users/accounts/allocations/first-allocation/)
 
 :::
@@ -668,7 +683,7 @@ It can also let you focus your budget on hardware and people rather than licensi
 ![](figures/open-xdmod.png)
 :::
 ::: {.column width=20%}
-[![](figures/qr-open-xdmod.png)]()
+[![](figures/qr-open-xdmod.png)](https://open.xdmod.org/)
 :::
 :::
 
@@ -691,7 +706,7 @@ This is one of the tools that makes an under-resourced institution look more pro
 ![](figures/ood-lrc.png)
 :::
 ::: {.column width=20%}
-[![](figures/qr-open-ondemand.png)]()
+[![](figures/qr-open-ondemand.png)](https://www.openondemand.org)
 :::
 :::
 
@@ -714,11 +729,11 @@ Your security people will be happy that it can be integrated with whatever multi
 - It was designed for large supercomputing centers, where many users and application teams share common installations of software on clusters with exotic architectures, using libraries that do not have a standard ABI.
 - Spack is non-destructive: installing a new version does not break existing installations, so many configurations can coexist on the same system.
 
--- https://spack.readthedocs.io/
+-- https://spack.io
 
 :::
 ::: {.column width=20%}
-[![](figures/qr-spack.png)]()
+[![](figures/qr-spack.png)](https://spack.io)
 :::
 :::
 

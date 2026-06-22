@@ -1,11 +1,10 @@
 ---
 author:
-- Mike Renfro\inst{1,2}
+- Mike Renfro\inst{1}
 institute:
-  - \inst{1}Tennessee Tech University
-  - \inst{2}Campus Champions Leadership Team
+  - \inst{1}Research Computing and Data, Information Technology Services, Tennessee Tech University
 title: "The Cyberinfrastructure Landscape: Organizations"
-date: 2025-06-23
+date: 2026-06-22
 aspectratio: 169
 theme: Cookeville
 colorlinks: true
@@ -38,7 +37,7 @@ toc: false
 
 To give you a bit of an idea where I come from in all of this, my LinkedIn bio that has all the fancy language about decades of experience supporting engineering research really comes down to this:
 
-I'm a self-diagnosed high-functioning ADHD guy who probably should have studied more than he helped people in computer labs.
+I was a poorly-diagnosed high-functioning ADHD engineering student who probably should have studied more than he helped people in computer labs.
 
 I lucked into a couple of co-op years at Oak Ridge National Lab doing a mix of CAD support, Unix systems administration, and actual engineering.
 :::
@@ -51,7 +50,7 @@ I lucked into a couple of co-op years at Oak Ridge National Lab doing a mix of C
 - Three ME degrees from the now-R2 university (1995, 1998, 2018)
 - Mostly-solo practitioner of all things RCD at the same university (2000--2017, 2017--)
 - Perpetually online member of multiple RCD organizations (2018--)
-- Member of Campus Champions Leadership Team (2022--), CaRCC Emerging Centers Steering Committee (2024--)
+- Member of Campus Champions Leadership Team (2022--2025), CaRCC Emerging Centers Steering Committee (2024--)
 - Compulsive advice-giver
 :::
 
@@ -63,7 +62,7 @@ I lucked into a couple of co-op years at Oak Ridge National Lab doing a mix of C
 :::
 
 ::: notes
-**(Skip this if this is the second of a two-part talk.)** That eventually turned into a bunch of degrees from my original university, which I like to call a masters in shaking things and a PhD in breaking things. I spent 17 years as an R&D engineer in a research center, and then as the first campus-wide HPC systems administrator in central IT. I'm a member of way too many RCD community groups, been on the Campus Champions leadership team for nearly 3 years, on the CaRCC Emerging Centers steering committee for about a year, and I'm a compulsive advice giver and rabbit-hole-chaser.
+**(Skip this if this is the second of a two-part talk.)** That eventually turned into a bunch of degrees from that university, which I like to call a masters in shaking things and a PhD in breaking things. I spent 17 years as an R&D engineer in a research center, and then as the first campus-wide HPC systems administrator in central IT. I'm a member of way too many RCD community groups, was on the Campus Champions leadership team for 3 years, on the CaRCC Emerging Centers steering committee for about 2 years, and I'm a compulsive advice giver and rabbit-hole-chaser.
 
 **(Keep this regardless.)** So for the folks who don't have a lot of time for the rest of this talk, or for the new folks that may be overwhelmed by RCD, let me go ahead and get you what others have called the starter pack of RCD organizations and conferences where you can find other communities and resources as you need them.
 :::
@@ -93,9 +92,9 @@ I lucked into a couple of co-op years at Oak Ridge National Lab doing a mix of C
 :::
 
 ::: notes
-The first one is Campus Champions: this was the second RCD community that I joined about 6 years ago, the one that introduced me to Henry and other folks via the Virtual Residency.
+The first one is Campus Champions: this was the second RCD community that I joined about 8 years ago, the one that introduced me to Henry and other folks via the Virtual Residency.
 
-Campus Champions is one of the longest-running RCD communities, starting around 2008 and formerly funded by NSF's Extreme Science and Engineering Discovery Environment (XSEDE). It currently has over 800 members from every state, and it includes folks from every RCD role: facilitators, software engineers, systems administrators, etc.
+Campus Champions is one of the longest-running RCD communities, starting around 2008 and formerly funded by NSF's Extreme Science and Engineering Discovery Environment (XSEDE). It currently has over 900 members from every state, and it includes folks from every RCD role: facilitators, software engineers, systems administrators, etc.
 
 We've got an active mailing list and fairly active Slack, with two regularly-scheduled calls each month. One call has a specific topic and an invited speaker, while the other one is a more free-flowing community chat over any topic of interest to the attendees. Sometimes we start with something hot from the mailing list, other times from recent news items.
 
@@ -125,14 +124,14 @@ The biggest thing I'll applaud CaRCC for is their ongoing and invaluable work in
 Now those organizations are all virtual, no cost to join, and extremely welcoming and accessible to new folks.
 :::
 
-## PEARC Conference Series
+## PEARC and SC Conference Series
 
 ### PEARC Conference Series
 
 ::: {.columns align=top}
 ::: {.column width=80%}
 - The de facto RCD people conference
-- Small enough (782 attendees in 2023, 970 in 2024)
+- Small enough (782 attendees in 2023, 960 in 2025)
 - Full range of publishing options
   - full papers
   - short papers
@@ -164,8 +163,6 @@ There's a day of workshops and tutorials on a huge range of topics, co-located e
 Go to PEARC at least once, but as I said previously, it's on my hot list every year because of the people that attend.
 :::
 
-## Supercomputing Conference Series
-
 ### Supercomputing Conference Series
 
 ::: {.columns align=top}
@@ -173,11 +170,11 @@ Go to PEARC at least once, but as I said previously, it's on my hot list every y
 
 - The de facto HPC stuff conference
 - Huge
-- Like, really huge (14k attendees in 2023, 18k in 2024)
+- Like, really huge (14k attendees in 2023, 18k in 2024, 16.5k in 2025)
 - Lots of vendors
 - Lots of recruiting
 - Student Cluster Competition
-- SCinet (local network providing 6.71 Tb/s WAN connectivity in 2023, 8.71 Tb/s in 2024)
+- SCinet (local network providing 6.71 Tb/s WAN connectivity in 2023, 8.71 Tb/s in 2024, 13.72 Tb/s in 2025)
 
 Go at least once, but just once is probably ok, too.
 :::
@@ -195,10 +192,39 @@ It's huge, around 18000 attendees last year. Tons of vendors, giant exhibition s
 
 They host a student cluster competition every year, where teams from all over the world compete to squeeze the most performance out of a limited power budget and get the best performance on a range of computational codes.
 
-The SCinet network is also a technical wonder, last year they strung a lot of miles of cable around the convention center and provided nearly 9 terabits of Internet bandwidth to the attendees and exhibitors.
+The SCinet network is also a technical wonder, last year they strung 29 miles of cable around the convention center and provided nearly 14 terabits of Internet bandwidth to the attendees and exhibitors.
 
-So far, I've spent only one day in the SC exhibition hall, and haven't yet attended other parts of it. From what I've heard, for some people, going once is enough for the spectacle of everything, but you may find you want to go back repeatedly.
+So far, I've done one full week of SC attendance, including tutorials, talks, and the exhibition space---it's a lot. For some people, going once is enough for the spectacle of everything, but you may find you want to go back repeatedly.
 :::
+
+## Research Computing for Small Institutions (RCSI)
+
+### Research Computing for Small Institutions (RCSI)
+
+::: {.columns align=top}
+::: {.column width=80%}
+- Two-day in-person conference targeting needs and concerns of non-R1 institutions.
+- Premise: smaller schools confront same technical challenges as larger ones, but without corresponding resource (funding, time, expertise, infrastructure) levels.
+- Plans to coordinate more closely with CaRCC Emerging Centers track.
+:::
+
+::: {.column width=20%}
+[![](figures/qr-rcsi.png)](https://rcsi.swarthmore.edu)
+:::
+:::
+
+::: notes
+The Research Computing for Small Institutions, or RCSI, conference has been held under a couple different names since 2020.
+
+About 70% of undergraduates in the US attend non-R1 institutions.
+
+A whole lot of them go straight into the workforce after graduation, but across all US PhD recipients a few years ago, about 30% of them have their undergraduate degree from a non-R1, or about 26% if you just look at just science and engineering PhDs.
+
+So non-R1 institutions contribute a substantial portion of our student researchers without access to a corresponding share of research funding, and that leads to unique challenges. And from personal experience, I thought my R2 was under-resourced until I saw what some non-R2 institutions go through.
+
+As there's also a lot of potential common interests and membership between the CaRCC Emerging Centers track and the RCSI attendees, there are also plans in the works to refocus the EC track to provide a more year-round experience than the RCSI conference can offer on its own.
+:::
+
 
 ## Virtual Residency Program
 
@@ -211,6 +237,7 @@ So far, I've spent only one day in the SC exhibition hall, and haven't yet atten
 :::
 
 ::: {.column width=20%}
+FREE FREE FREE FREE FREE FREE FREE FREE FREE FREE FREE FREE
 :::
 :::
 
